@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B89FD104202700C3009D09C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FD103202700C3009D09C3 /* AppDelegate.swift */; };
+		B89FD106202700C3009D09C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FD105202700C3009D09C3 /* HomeViewController.swift */; };
+		B89FD109202700C3009D09C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89FD107202700C3009D09C3 /* Main.storyboard */; };
+		B89FD10C202700C3009D09C3 /* SimpleRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B89FD10A202700C3009D09C3 /* SimpleRecorder.xcdatamodeld */; };
+		B89FD10E202700C3009D09C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89FD10D202700C3009D09C3 /* Assets.xcassets */; };
+		B89FD111202700C3009D09C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89FD10F202700C3009D09C3 /* LaunchScreen.storyboard */; };
+		B89FD11C202700C4009D09C3 /* SimpleRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FD11B202700C4009D09C3 /* SimpleRecorderTests.swift */; };
+		B89FD127202700C4009D09C3 /* SimpleRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FD126202700C4009D09C3 /* SimpleRecorderUITests.swift */; };
+		B8B78908202AD14B0094A4DC /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B78907202AD14B0094A4DC /* stopButton.png */; };
+		B8B7890B202AD1570094A4DC /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B78909202AD1560094A4DC /* playButton.png */; };
+		B8B7890C202AD1570094A4DC /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B7890A202AD1570094A4DC /* recordButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B89FD118202700C4009D09C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89FD0F8202700C3009D09C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89FD0FF202700C3009D09C3;
+			remoteInfo = SimpleRecorder;
+		};
+		B89FD123202700C4009D09C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89FD0F8202700C3009D09C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89FD0FF202700C3009D09C3;
+			remoteInfo = SimpleRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B89FD100202700C3009D09C3 /* SimpleRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FD103202700C3009D09C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B89FD105202700C3009D09C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B89FD108202700C3009D09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B89FD10B202700C3009D09C3 /* SimpleRecorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleRecorder.xcdatamodel; sourceTree = "<group>"; };
+		B89FD10D202700C3009D09C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B89FD110202700C3009D09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B89FD112202700C3009D09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89FD117202700C4009D09C3 /* SimpleRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FD11B202700C4009D09C3 /* SimpleRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRecorderTests.swift; sourceTree = "<group>"; };
+		B89FD11D202700C4009D09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89FD122202700C4009D09C3 /* SimpleRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FD126202700C4009D09C3 /* SimpleRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRecorderUITests.swift; sourceTree = "<group>"; };
+		B89FD128202700C4009D09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B78907202AD14B0094A4DC /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButton.png; sourceTree = "<group>"; };
+		B8B78909202AD1560094A4DC /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		B8B7890A202AD1570094A4DC /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B89FD0FD202700C3009D09C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FD114202700C4009D09C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FD11F202700C4009D09C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B89FD0F7202700C3009D09C3 = {
+			isa = PBXGroup;
+			children = (
+				B89FD102202700C3009D09C3 /* SimpleRecorder */,
+				B89FD11A202700C4009D09C3 /* SimpleRecorderTests */,
+				B89FD125202700C4009D09C3 /* SimpleRecorderUITests */,
+				B89FD101202700C3009D09C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B89FD101202700C3009D09C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B89FD100202700C3009D09C3 /* SimpleRecorder.app */,
+				B89FD117202700C4009D09C3 /* SimpleRecorderTests.xctest */,
+				B89FD122202700C4009D09C3 /* SimpleRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B89FD102202700C3009D09C3 /* SimpleRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				B89FD103202700C3009D09C3 /* AppDelegate.swift */,
+				B89FD105202700C3009D09C3 /* HomeViewController.swift */,
+				B89FD107202700C3009D09C3 /* Main.storyboard */,
+				B89FD10D202700C3009D09C3 /* Assets.xcassets */,
+				B89FD10F202700C3009D09C3 /* LaunchScreen.storyboard */,
+				B8B78907202AD14B0094A4DC /* stopButton.png */,
+				B8B78909202AD1560094A4DC /* playButton.png */,
+				B8B7890A202AD1570094A4DC /* recordButton.png */,
+				B89FD112202700C3009D09C3 /* Info.plist */,
+				B89FD10A202700C3009D09C3 /* SimpleRecorder.xcdatamodeld */,
+			);
+			path = SimpleRecorder;
+			sourceTree = "<group>";
+		};
+		B89FD11A202700C4009D09C3 /* SimpleRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B89FD11B202700C4009D09C3 /* SimpleRecorderTests.swift */,
+				B89FD11D202700C4009D09C3 /* Info.plist */,
+			);
+			path = SimpleRecorderTests;
+			sourceTree = "<group>";
+		};
+		B89FD125202700C4009D09C3 /* SimpleRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B89FD126202700C4009D09C3 /* SimpleRecorderUITests.swift */,
+				B89FD128202700C4009D09C3 /* Info.plist */,
+			);
+			path = SimpleRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B89FD0FF202700C3009D09C3 /* SimpleRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89FD12B202700C4009D09C3 /* Build configuration list for PBXNativeTarget "SimpleRecorder" */;
+			buildPhases = (
+				B89FD0FC202700C3009D09C3 /* Sources */,
+				B89FD0FD202700C3009D09C3 /* Frameworks */,
+				B89FD0FE202700C3009D09C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRecorder;
+			productName = SimpleRecorder;
+			productReference = B89FD100202700C3009D09C3 /* SimpleRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B89FD116202700C4009D09C3 /* SimpleRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89FD12E202700C4009D09C3 /* Build configuration list for PBXNativeTarget "SimpleRecorderTests" */;
+			buildPhases = (
+				B89FD113202700C4009D09C3 /* Sources */,
+				B89FD114202700C4009D09C3 /* Frameworks */,
+				B89FD115202700C4009D09C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B89FD119202700C4009D09C3 /* PBXTargetDependency */,
+			);
+			name = SimpleRecorderTests;
+			productName = SimpleRecorderTests;
+			productReference = B89FD117202700C4009D09C3 /* SimpleRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B89FD121202700C4009D09C3 /* SimpleRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89FD131202700C4009D09C3 /* Build configuration list for PBXNativeTarget "SimpleRecorderUITests" */;
+			buildPhases = (
+				B89FD11E202700C4009D09C3 /* Sources */,
+				B89FD11F202700C4009D09C3 /* Frameworks */,
+				B89FD120202700C4009D09C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B89FD124202700C4009D09C3 /* PBXTargetDependency */,
+			);
+			name = SimpleRecorderUITests;
+			productName = SimpleRecorderUITests;
+			productReference = B89FD122202700C4009D09C3 /* SimpleRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B89FD0F8202700C3009D09C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = XiaoweiXue;
+				TargetAttributes = {
+					B89FD0FF202700C3009D09C3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = MA7455LWAZ;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					B89FD116202700C4009D09C3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B89FD0FF202700C3009D09C3;
+					};
+					B89FD121202700C4009D09C3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B89FD0FF202700C3009D09C3;
+					};
+				};
+			};
+			buildConfigurationList = B89FD0FB202700C3009D09C3 /* Build configuration list for PBXProject "SimpleRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B89FD0F7202700C3009D09C3;
+			productRefGroup = B89FD101202700C3009D09C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B89FD0FF202700C3009D09C3 /* SimpleRecorder */,
+				B89FD116202700C4009D09C3 /* SimpleRecorderTests */,
+				B89FD121202700C4009D09C3 /* SimpleRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B89FD0FE202700C3009D09C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FD111202700C3009D09C3 /* LaunchScreen.storyboard in Resources */,
+				B89FD10E202700C3009D09C3 /* Assets.xcassets in Resources */,
+				B8B7890C202AD1570094A4DC /* recordButton.png in Resources */,
+				B89FD109202700C3009D09C3 /* Main.storyboard in Resources */,
+				B8B7890B202AD1570094A4DC /* playButton.png in Resources */,
+				B8B78908202AD14B0094A4DC /* stopButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FD115202700C4009D09C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FD120202700C4009D09C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B89FD0FC202700C3009D09C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FD106202700C3009D09C3 /* HomeViewController.swift in Sources */,
+				B89FD104202700C3009D09C3 /* AppDelegate.swift in Sources */,
+				B89FD10C202700C3009D09C3 /* SimpleRecorder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FD113202700C4009D09C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FD11C202700C4009D09C3 /* SimpleRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FD11E202700C4009D09C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FD127202700C4009D09C3 /* SimpleRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B89FD119202700C4009D09C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89FD0FF202700C3009D09C3 /* SimpleRecorder */;
+			targetProxy = B89FD118202700C4009D09C3 /* PBXContainerItemProxy */;
+		};
+		B89FD124202700C4009D09C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89FD0FF202700C3009D09C3 /* SimpleRecorder */;
+			targetProxy = B89FD123202700C4009D09C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B89FD107202700C3009D09C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89FD108202700C3009D09C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B89FD10F202700C3009D09C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89FD110202700C3009D09C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B89FD129202700C4009D09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B89FD12A202700C4009D09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B89FD12C202700C4009D09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MA7455LWAZ;
+				INFOPLIST_FILE = SimpleRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xue-xw.SimpleRecorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B89FD12D202700C4009D09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MA7455LWAZ;
+				INFOPLIST_FILE = SimpleRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xue-xw.SimpleRecorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		B89FD12F202700C4009D09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xue-xw.SimpleRecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRecorder.app/SimpleRecorder";
+			};
+			name = Debug;
+		};
+		B89FD130202700C4009D09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xue-xw.SimpleRecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRecorder.app/SimpleRecorder";
+			};
+			name = Release;
+		};
+		B89FD132202700C4009D09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimpleRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xue-xw.SimpleRecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SimpleRecorder;
+			};
+			name = Debug;
+		};
+		B89FD133202700C4009D09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimpleRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xue-xw.SimpleRecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SimpleRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B89FD0FB202700C3009D09C3 /* Build configuration list for PBXProject "SimpleRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FD129202700C4009D09C3 /* Debug */,
+				B89FD12A202700C4009D09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89FD12B202700C4009D09C3 /* Build configuration list for PBXNativeTarget "SimpleRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FD12C202700C4009D09C3 /* Debug */,
+				B89FD12D202700C4009D09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89FD12E202700C4009D09C3 /* Build configuration list for PBXNativeTarget "SimpleRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FD12F202700C4009D09C3 /* Debug */,
+				B89FD130202700C4009D09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89FD131202700C4009D09C3 /* Build configuration list for PBXNativeTarget "SimpleRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FD132202700C4009D09C3 /* Debug */,
+				B89FD133202700C4009D09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B89FD10A202700C3009D09C3 /* SimpleRecorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B89FD10B202700C3009D09C3 /* SimpleRecorder.xcdatamodel */,
+			);
+			currentVersion = B89FD10B202700C3009D09C3 /* SimpleRecorder.xcdatamodel */;
+			path = SimpleRecorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B89FD0F8202700C3009D09C3 /* Project object */;
+}
